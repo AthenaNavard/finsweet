@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How We Work Section</title>
+  <link rel="stylesheet" href="./public/css/main.css">
+
+  <style>
+    @media (max-width: 768px) {
+      .hidden-md {
+        display: none;
+      }
+    }
+
+    @media (min-width: 1600px) {
+      .container {
+        max-width: 1600px;
+        height: 661px;
+      }
+    }
+    @media (max-width: 768px) {
+      .md\:flex-row {
+        flex-direction: column;
+      }
+
+      .md\:w-1\/2 {
+        width: 100%;
+      }
+
+      .md\:mb-0 {
+        margin-bottom: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .text-3xl {
+        font-size: 2rem;
+      }
+
+      .text-lg {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #FAQ {
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Project -->
+  <div>
+    <!-- Home -->
+    <div class="w-full h-auto bg-[#1C1E53]">
+      <!-- Menu -->
+      <nav class="flex items-center justify-between p-4 bg-[#1C1E53] shadow-md h-[92px]">
+        <div class="text-lg ml-4">
+          <img src="./public/imges/Logo.png" alt="Logo">
+        </div>
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="./index.html" class="hover:underline text-white">Home</a>
+          <a href="./about.html" class="hover:underline text-[#BBBBCB]">About us</a>
+          <a href="./Features.html" class="hover:underline text-[#BBBBCB]">Features</a>
+          <a href="./Pricing.html" class="hover:underline text-[#BBBBCB]">Pricing</a>
+          <a href="./Privacy.html" class="hover:underline text-[#BBBBCB]">FAQ</a>
+          <a href="./Blog.html" class="hover:underline text-[#BBBBCB]">Blog</a>
+          <a href="./Contact.html"
+            class="px-4 py-2 border border-[#F4F6FC] rounded-[41px] hover:bg-white hover:text-indigo-900 text-white">Contact
+            us</a>
+        </div>
+        <button id="hamburger" class="block md:hidden focus:outline-none">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </nav>
+      <div id="mobile-menu"
+        class="hidden fixed inset-0 h-full w-full bg-indigo-900 text-white p-4 overflow-y-auto z-50">
+        <button id="close-menu" class="mb-4 focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+        <a href="./index.html" class="block mb-2 hover:underline">Home</a>
+        <a href="./about.html" class="block mb-2 hover:underline">About us</a>
+        <a href="./Features.html" class="block mb-2 hover:underline">Features</a>
+        <a href="./Pricing.html" class="block mb-2 hover:underline">Pricing</a>
+        <a href="./Privacy.html" class="block mb-2 hover:underline">FAQ</a>
+        <a href="./Blog.html" class="block mb-2 hover:underline">Blog</a>
+        <a href="./Contact.html"
+          class="block px-4 py-2 mt-2 border border-[#F4F6FC] rounded-[41px] hover:bg-white hover:text-indigo-900">Contact
+          us</a>
+      </div>
+      <!-- End Menu -->
+      <!-- Home Hero -->
+      <div class="container mx-auto p-6 h-[668px] flex flex-col items-center justify-center text-center">
+        <div class="flex flex-col md:flex-row items-center md:space-x-8 space-y-6 md:space-y-0 h-full">
+          <div class="md:w-1/2 flex flex-col items-center md:items-start space-y-6">
+            <h1 class="text-[36px] md:text-5xl font-semibold leading-[44px] md:leading-[74px] text-white">Building
+              stellar websites for early startups</h1>
+            <p class="text-[14px] md:text-[16px] font-normal text-white leading-5 md:leading-7">Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <div class="flex justify-center md:justify-center md:items-center md:m-auto space-x-4">
+              <button class="px-6 py-3 bg-yellow-400 text-indigo-900 rounded-full hover:bg-yellow-500"> <a href="./Work.html">View our
+                work</a></button>
+              <button class="px-6 py-3 text-white flex items-center space-x-2"><a href="./Pricing.html">View Pricing &rarr;</a> </button>
+            </div>
+          </div>
+          <div class="md:w-1/2 flex justify-center ">
+            <img src="./public/imges/Illustration.svg" alt="Hero Image" class="w-full h-auto md:max-w-md md:mt-2">
+          </div>
+        </div>
+      </div>
+      <!-- End Home Hero -->
+    </div>
+    <!-- End Home -->
+    <!-- This is How it Work -->
+    <section class="bg-gray-100">
+      <div class="container mx-auto p-4 flex flex-col lg:flex-row items-center lg:items-start lg:justify-between">
+        <!-- Left Section -->
+        <div class="text-center lg:text-left lg:w-1/3 mb-12 lg:mb-0 mt-12 lg:mt-32" style="max-width: 405px;">
+          <h2 class="text-3xl font-bold mb-4">How we work</h2>
+          <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+          </p>
+          <a href="./Work.html" class="text-blue-600 hover:underline">Get in touch with us →</a>
+        </div>
+        <!-- Right Section -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:w-2/3 mx-auto mt-12 lg:mt-32 mb-12 lg:mb-32">
+          <!-- Card 1 -->
+          <div class="p-6 rounded-lg flex flex-col items-center mx-auto">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 flex items-center justify-center rounded-lg mr-4">
+                <img src="./public/imges/pointer 1.png" alt="">
+              </div>
+              <h3 class="text-xl font-bold">Strategy</h3>
+            </div>
+            <p class="text-gray-600 text-center">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div class="p-6 rounded-lg flex flex-col items-center mx-auto">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 flex items-center justify-center rounded-lg mr-4">
+                <img src="./public/imges/pointer 2.png" alt="">
+              </div>
+              <h3 class="text-xl font-bold">Wireframing</h3>
+            </div>
+            <p class="text-gray-600 text-center">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div class="p-6 rounded-lg flex flex-col items-center mx-auto">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 flex items-center justify-center rounded-lg mr-4">
+                <img src="./public/imges/pointer 3.png" alt="">
+              </div>
+              <h3 class="text-xl font-bold">Design</h3>
+            </div>
+            <p class="text-gray-600 text-center">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.
+            </p>
+          </div>
+          <!-- Card 4 -->
+          <div class="p-6 rounded-lg flex flex-col items-center mx-auto">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 flex items-center justify-center rounded-lg mr-4">
+                <img src="./public/imges/pointer 4.png" alt="">
+              </div>
+              <h3 class="text-xl font-bold">Development</h3>
+            </div>
+            <p class="text-gray-600 text-center">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End This is How it Work -->
+    <!-- our work -->
+    <div class="container mx-auto w-full max-w-screen-lg h-auto my-16 px-4 md:px-0 bg-white">
+      <!-- Header Section -->
+      <div class="flex flex-col md:flex-row justify-between items-center mb-[79px] text-center md:text-left">
+        <div>
+          <h2 class="text-[#282938] text-5xl font-bold leading-[64px]">View our projects</h2>
+        </div>
+        <a href="./Work.html" class="text-[#282938] no-underline mt-4 md:mt-0 md:ml-[690px] font-medium text-base">View More
+          &#8594;</a>
+      </div>
+      <!-- Content Section -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+        <!-- Left Card -->
+        <div class="col-span-2 h-[468px] relative bg-card-image bg-cover bg-center bg-no-repeat">
+          <div
+            class="absolute w-full md:w-[396px] h-full bg-card-left bg-opacity-70 left-0 p-4 text-center md:text-left">
+            <p class="text-white text-2xl font-semibold mb-2">Workhub office Webflow Webflow Design</p>
+            <p class="text-white text-base font-normal">Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam </p>
+            <a href="./Work.html" class="text-[#FCD980] no-underline mt-4 inline-block font-normal text-base">View project
+              &#8594;</a>
+          </div>
+        </div>
+        <!-- Right Cards -->
+        <div class="flex flex-col space-y-2 mt-8 md:mt-0">
+          <!-- Top Right Card -->
+          <div
+            class="w-full h-[234px] relative p-4 text-center md:text-left bg-card-image2 bg-cover bg-center bg-no-repeat">
+            <div
+              class="absolute inset-0 bg-card-right bg-opacity-70 bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center md:items-start p-4">
+              <p class="text-white text-2xl font-semibold">Unisaas Website Design</p>
+              <a href="./Work.html" class="text-[#FCD980] no-underline mt-4 inline-block font-normal text-base">View portfolio
+                &#8594;</a>
+            </div>
+          </div>
+          <!-- Bottom Right Card -->
+          <div class="w-full h-[234px] bg-card-image3 bg-cover bg-no-repeat p-4"></div>
+        </div>
+      </div>
+    </div>
+    <!--end our work -->
+    <!-- Features -->
+    <section class="bg-gray-100 py-32">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-10">
+          <p class="font-medium text-base text-[#282938]">Features</p>
+          <h2 class="text-[#282938] text-3xl md:text-5xl font-semibold">Design that solves problems, one product at a
+            time</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-lg shadow-md">
+            <img src="./public/imges/Icon6.png" alt="" class="pb-6 mx-auto">
+            <h3 class="text-gray-900 text-2xl font-medium leading-9 text-center">Uses Client First</h3>
+            <p class="text-base font-medium leading-7 pt-3 text-center">Euismod faucibus turpis eu gravida mi.
+              Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-md">
+            <img src="./public/imges/Icon .png" alt="" class="pb-6 mx-auto">
+            <h3 class="text-gray-900 text-2xl font-medium leading-9 text-center">Two Free Revision Round</h3>
+            <p class="text-base font-medium leading-7 pt-3 text-center">Euismod faucibus turpis eu gravida mi.
+              Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-md">
+            <img src="./public/imges/Icon 2.png" alt="" class="pb-6 mx-auto">
+            <h3 class="text-gray-900 text-2xl font-medium leading-9 text-center">Template Customization</h3>
+            <p class="text-base font-medium leading-7 pt-3 text-center">Euismod faucibus turpis eu gravida mi.
+              Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-md">
+            <img src="./public/imges/Icon 3.png" alt="" class="pb-6 mx-auto">
+            <h3 class="text-gray-900 text-2xl font-medium leading-9 text-center">24/7 Support</h3>
+            <p class="text-base font-medium leading-7 pt-3 text-center">Euismod faucibus turpis eu gravida mi.
+              Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-md">
+            <img src="./public/imges/Icon 4.png" alt="" class="pb-6 mx-auto">
+            <h3 class="text-gray-900 text-2xl font-medium leading-9 text-center">Quick Delivery</h3>
+            <p class="text-base font-medium leading-7 pt-3 text-center">Euismod faucibus turpis eu gravida mi.
+              Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-md">
+            <img src="./public/imges/Icon 5.png" alt="" class="pb-6 mx-auto">
+            <h3 class="text-gray-900 text-2xl font-medium leading-9 text-center">Hands-on approach</h3>
+            <p class="text-base font-medium leading-7 pt-3 text-center">Euismod faucibus turpis eu gravida mi.
+              Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features -->
+    <!-- Testimonials -->
+    <section class="py-8 md:py-16 bg-[#F4F6FC] border border-opacity-50 relative" id="client-section">
+      <div class="container mx-auto px-4 h-full flex items-center justify-center pt-12 md:pt-24 pb-12 md:pb-24">
+        <div class="flex flex-col md:flex-row md:gap-28 w-full">
+          <!-- بخش متن -->
+          <div
+            class="flex-shrink-0 text-center md:text-left mb-8 md:mb-0 flex-1 flex flex-col items-center md:items-start justify-center">
+            <h2 class="text-[#282938] font-semibold text-3xl md:text-5xl leading-tight md:leading-snug mb-4">
+              What our clients say about us
+            </h2>
+            <p class="text-gray-600 text-base md:text-lg font-medium leading-7 md:leading-9">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+            </p>
+          </div>
+          <!-- بخش نقل قول و اطلاعات مشتری -->
+          <div class="text-center md:text-left flex-1 flex flex-col items-center md:items-start justify-center">
+            <h3 class="text-[#282938] text-xl md:text-3xl font-medium leading-8 md:leading-12 mb-12">
+              "The best agency we’ve worked with so far. They understand our product and are able to add new features
+              with a great focus."
+            </h3>
+            <div class="flex items-center justify-center md:justify-start gap-4">
+              <div class="flex-shrink-0">
+                <img src="./public/imges/Mask Group.png" alt="Client Image" class="w-16 h-16 rounded-full">
+              </div>
+              <div class="text-center md:text-left">
+                <h4 class="text-[#282938] text-lg font-medium leading-8">Jenny Wilson</h4>
+                <h3 class="text-[#282938] text-sm font-medium leading-7">Vice President</h3>
+              </div>
+              <div class="hidden md:flex items-center ml-auto gap-2">
+                <img src="./public/imges/Arrow.png" alt="Arrow">
+                <img src="./public/imges/Arrow (1).png" alt="Arrow">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials -->
+    <!-- FAQ -->
+    <section class="py-16 md:py-32">
+      <div class="container mx-auto px-4">
+        <div id="FAQ" class="flex flex-col md:flex-row md:gap-16">
+          <!-- سوالات -->
+          <div class="w-full md:w-1/3 mb-8 md:mb-0 text-center md:text-left">
+            <h2 class="text-[#282938] text-2xl md:text-3xl font-semibold leading-snug mb-4 md:mb-6 md:text-center">
+              Frequently asked questions
+            </h2>
+            <a href="#" class="text-[#2405F2] text-base md:text-lg font-medium leading-6">
+              Contact us for more info
+            </a>
+          </div>
+          <!-- FAQ -->
+          <div class="w-full md:w-2/3">
+            <div class="border-b-2 border-[#ECECF1] pb-6 md:pb-12">
+              <div class="flex flex-col md:flex-row items-center mb-4 md:mb-6">
+                <div class="w-full md:w-1/12 text-center md:text-left mb-2 md:mb-0">
+                  <span class="text-[#2405F2] text-xl md:text-2xl font-medium">01</span>
+                </div>
+                <div class="w-full md:w-8/12">
+                  <h3 class="text-[#282938] text-lg md:text-xl font-medium leading-6 md:leading-8">How much time does it
+                    take?</h3>
+                </div>
+              </div>
+              <p
+                class="text-[#282938] text-base md:text-lg font-medium leading-6 md:leading-8 ml-0 md:ml-8 mt-2 md:mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+              </p>
+            </div>
+
+            <!-- سایر سوالات -->
+            <div class="border-b-2 border-[#ECECF1] py-6 md:py-8">
+              <div class="flex flex-col md:flex-row items-center mb-4 md:mb-6">
+                <div class="w-full md:w-1/12 text-center md:text-left mb-2 md:mb-0">
+                  <span class="text-[#2405F2] text-xl md:text-2xl font-medium">02</span>
+                </div>
+                <div class="w-full md:w-8/12">
+                  <h3 class="text-[#282938] text-lg md:text-xl font-medium leading-6 md:leading-8">What is your class
+                    naming convention?</h3>
+                </div>
+              </div>
+            </div>
+            <div class="border-b-2 border-[#ECECF1] py-6 md:py-8">
+              <div class="flex flex-col md:flex-row items-center mb-4 md:mb-6">
+                <div class="w-full md:w-1/12 text-center md:text-left mb-2 md:mb-0">
+                  <span class="text-[#2405F2] text-xl md:text-2xl font-medium">03</span>
+                </div>
+                <div class="w-full md:w-8/12">
+                  <h3 class="text-[#282938] text-lg md:text-xl font-medium leading-6 md:leading-8">How do you
+                    communicate?</h3>
+                </div>
+              </div>
+            </div>
+            <div class="border-b-2 border-[#ECECF1] py-6 md:py-8">
+              <div class="flex flex-col md:flex-row items-center mb-4 md:mb-6">
+                <div class="w-full md:w-1/12 text-center md:text-left mb-2 md:mb-0">
+                  <span class="text-[#2405F2] text-xl md:text-2xl font-medium">04</span>
+                </div>
+                <div class="w-full md:w-8/12">
+                  <h3 class="text-[#282938] text-lg md:text-xl font-medium leading-6 md:leading-8">I have a bigger
+                    project. Can you handle it?</h3>
+                </div>
+              </div>
+            </div>
+            <div class="border-b-2 border-[#ECECF1] py-6 md:py-8">
+              <div class="flex flex-col md:flex-row items-center mb-4 md:mb-6">
+                <div class="w-full md:w-1/12 text-center md:text-left mb-2 md:mb-0">
+                  <span class="text-[#2405F2] text-xl md:text-2xl font-medium">05</span>
+                </div>
+                <div class="w-full md:w-8/12">
+                  <h3 class="text-[#282938] text-lg md:text-xl font-medium leading-6 md:leading-8">What is your class
+                    naming convention?</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end FAQ -->
+    <!-- Contact form -->
+    <section class="pb-32">
+      <div class="container mx-auto">
+        <div class="flex flex-col lg:flex-row lg:justify-center">
+          <!-- بخش تصویر و متن -->
+          <div class="relative w-full lg:w-[640px] h-[691px] bg-no-repeat overflow-hidden flex-none md:bg-cover"
+            style="background-image: url('./public/imges/hand.jpg');">
+            <div class="absolute inset-0 bg-[rgba(28,30,83,0.5)] p-8 md:p-24 flex flex-col justify-center">
+              <h2
+                class="text-white font-semibold font-poppins text-[32px] md:text-[54px] leading-tight md:leading-[74px] pb-6 max-w-[464px]">
+                Building stellar websites for early startups
+              </h2>
+              <p class="text-white font-medium font-poppins text-[16px] leading-[28px] max-w-[464px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.
+              </p>
+            </div>
+          </div>
+          <!-- بخش فرم درخواست -->
+          <div
+            class="bg-[#1C1E53] w-full lg:w-[640px] h-[691px] p-8 md:p-24 flex flex-col justify-center md:justify-center md:items-center">
+            <h3 class="text-white font-medium font-poppins text-[32px] leading-[48px] pb-4">
+              Send inquiry
+            </h3>
+            <p class="text-white font-medium font-poppins text-[16px] leading-[28px] max-w-[432px] pb-10">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore.
+            </p>
+            <form action="">
+              <div class="mb-4">
+                <input type="text" placeholder="Your Name"
+                  class="w-full max-w-[432px] h-16 bg-transparent border-2 border-[rgba(255,255,255,0.05)] rounded-lg text-white px-4 placeholder:text-[rgba(244,246,252,0.5)] font-medium font-poppins text-[16px] leading-[28px] focus:outline-none" />
+              </div>
+              <div class="mb-4">
+                <input type="email" placeholder="Email"
+                  class="w-full max-w-[432px] h-16 bg-transparent border-2 border-[rgba(255,255,255,0.05)] rounded-lg text-white px-4 placeholder:text-[rgba(244,246,252,0.5)] font-medium font-poppins text-[16px] leading-[28px] focus:outline-none" />
+              </div>
+              <div class="mb-4">
+                <input type="url" placeholder="Paste your Figma design URL"
+                  class="w-full max-w-[432px] h-16 bg-transparent border-2 border-[rgba(255,255,255,0.05)] rounded-lg text-white px-4 placeholder:text-[rgba(244,246,252,0.5)] font-medium font-poppins text-[16px] leading-[28px] focus:outline-none" />
+              </div>
+              <div class="pt-6">
+                <button type="submit"
+                  class="w-full max-w-[432px] h-16 bg-[#FCD980] text-[#1B1C2B] rounded-full font-medium font-poppins text-[16px] leading-[28px] transition duration-300 hover:bg-opacity-90 focus:outline-none">
+                  Send an Inquiry
+                </button>
+              </div>
+              <div class="pt-7 pl-8 md:pl-32  ">
+                <a href="#" class="text-white font-medium font-poppins text-[18px] leading-[32px] ">
+                  Get in touch with us &rarr;
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end Contact form -->
+    <!-- blog -->
+    <section class="w-full max-w-[1280px] mx-auto my-0 flex flex-col items-center space-y-16 px-4">
+      <!-- بخش عنوان "Our Blog" -->
+      <div class="w-full text-center lg:text-start md:text-center">
+        <h2 class="font-semibold text-[48px] leading-[64px] text-[#282938]">Our Blog</h2>
+      </div>
+
+      <!-- بخش مقالات وبلاگ -->
+      <div class="flex flex-col lg:flex-row lg:space-x-8 justify-center items-stretch w-full lg:px-0 px-4">
+        <!-- مقاله اول -->
+        <div class="flex flex-col w-full max-w-[405px] h-[609px] mt-16 space-y-4 mx-auto text-center lg:text-left">
+          <img src="./public/imges/blog-1.png" alt="" class="w-full h-[285px] object-cover" />
+          <p class="text-[#282938] opacity-70 font-medium text-[16px] leading-[28px]">19 Jan 2022</p>
+          <h6 class="text-[#282938] font-normal text-[24px] leading-[36px]">
+            How one Webflow user grew his single person consultancy from $0-100K in 14 months
+          </h6>
+          <p class="text-[#282938] opacity-70 font-normal text-[16px] leading-[28px]">
+            See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+          </p>
+          <p class="text-[#282938] font-medium text-[16px] leading-[28px]"><a href="./Blog.html">Read More &rarr;</a></p>
+        </div>
+
+        <!-- مقاله دوم -->
+        <div class="flex flex-col w-full max-w-[405px] h-[609px] mt-16 space-y-4 mx-auto text-center lg:text-left">
+          <img src="./public/imges/blog-2.png" alt="" class="w-full h-[285px] object-cover" />
+          <p class="text-[#282938] opacity-70 font-medium text-[16px] leading-[28px]">19 Jan 2022</p>
+          <h6 class="text-[#282938] font-normal text-[24px] leading-[36px]">
+            How one Webflow user grew his single person consultancy from $0-100K in 14 months
+          </h6>
+          <p class="text-[#282938] opacity-70 font-normal text-[16px] leading-[28px]">
+            See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+          </p>
+          <p class="text-[#282938] font-medium text-[16px] leading-[28px]"><a href="./Blog.html">Read More &rarr;</a></p>
+        </div>
+
+        <!-- مقاله سوم -->
+        <div class="flex flex-col w-full max-w-[405px] h-[609px] mt-16 space-y-4 mx-auto text-center lg:text-left">
+          <img src="./public/imges/blog-3.png" alt="" class="w-full h-[285px] object-cover" />
+          <p class="text-[#282938] opacity-70 font-medium text-[16px] leading-[28px]">19 Jan 2022</p>
+          <h6 class="text-[#282938] font-normal text-[24px] leading-[36px]">
+            How one Webflow user grew his single person consultancy from $0-100K in 14 months
+          </h6>
+          <p class="text-[#282938] opacity-70 font-normal text-[16px] leading-[28px]">
+            See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+          </p>
+          <p class="text-[#282938] font-medium text-[16px] leading-[28px]"><a href="./Blog.html">Read More &rarr;</a></p>
+        </div>
+      </div>
+    </section>
+    <!--end blog -->
+    <!-- footer -->
+    <div class="flex flex-col items-center w-full max-w-[1600px] mx-auto box-border">
+      <!-- بخش اصلی -->
+      <div class="bg-[#1C1E53] relative p-8 lg:p-[96px_160px_0_160px] w-full max-w-[1600px] box-border">
+        <!-- بخش داخلی -->
+        <div class="relative flex flex-col  w-full max-w-[1009.7px] h-auto mx-auto box-border">
+
+          <!-- بخش لوگو -->
+          <div class="flex flex-col items-center mb-8">
+            <img class="w-[160px] h-[32.41px]" src="./public/imges/Logo.png" alt="Logo" />
+          </div>
+          <!-- بخش عنوان -->
+          <span
+            class="text-center mb-8 break-words font-['Poppins'] font-bold text-[48px] leading-[1.333] text-[#FFFFFF]">
+            Lets Talk!
+          </span>
+
+
+          <!-- بخش توضیحات -->
+          <div class="flex flex-col lg:flex-row items-center justify-between w-full max-w-[1009.7px] mb-8 box-border">
+            <div
+              class="opacity-80 mb-4 lg:mb-0 inline-block w-full max-w-[399px] break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#FFFFFF] text-center lg:text-left">
+              We are always open to discuss your project and improve your online presence.
+            </div>
+
+            <div
+              class="opacity-80 mb-4 lg:mb-0 inline-block w-full max-w-[399px] break-words font-['Poppins'] font-normal text-[16px] leading-[1.75] text-[#F4F6FC] text-center lg:text-left">
+              We are always open to discuss your project, improve your online presence and help with your UX/UI design
+              challenges.
+            </div>
+          </div>
+
+          <!-- بخش آیکون‌ها -->
+          <div class="flex flex-row justify-center lg:justify-end gap-4 mb-8">
+            <img class="w-[16px] h-[16px]" src="./public/imges/LinkedIn.png" alt="Icon" />
+            <img class="w-[16px] h-[16px]" src="./public/imges/Instagram.png" alt="Icon" />
+            <img class="w-[16px] h-[16px]" src="./public/imges/Twitter.png" alt="Icon" />
+            <img class="w-[16px] h-[16px]" src="./public/imges/Facebook.png" alt="Icon" />
+          </div>
+
+          <!-- بخش تماس -->
+          <div
+            class="bg-[#FCD980] flex flex-col items-center p-4 lg:p-[17px_0_16px_37px] w-full max-w-[517px] box-border mb-8 lg:mb-0 md:m-auto">
+            <div class="flex flex-col lg:flex-row items-center justify-between w-full max-w-[271.6px] mb-4">
+              <div
+                class="m-[1px_16px_0_0] inline-block w-full max-w-[108px] break-words font-['Poppins'] font-medium text-[18px] leading-[1.778] text-[#282938] text-center lg:text-left">
+                Email me at
+              </div>
+              <div
+                class="m-[0_0_1px_0] inline-block w-full max-w-[108px] break-words font-['Poppins'] font-medium text-[18px] leading-[1.778] text-[#282938] text-center lg:text-left">
+                Call us
+              </div>
+            </div>
+            <div class="flex flex-col lg:flex-row items-center justify-between w-full max-w-[342px]">
+              <div
+                class="opacity-80 m-[1px_14px_0_0] inline-block w-full max-w-[181px] break-words font-['Poppins'] font-normal text-[16px] leading-[1.75] text-[#282938] text-center lg:text-left">
+                contact@website.com
+              </div>
+              <div
+                class="opacity-80 m-[0_0_1px_0] inline-block w-full max-w-[181px] break-words font-['Poppins'] font-normal text-[16px] leading-[1.75] text-[#282938] text-center lg:text-left">
+                0927 6277 28525
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- بخش ناوبری پایین صفحه -->
+        <div
+          class="bg-[#FFFFFF] relative flex flex-col lg:flex-row justify-between p-4 lg:p-[32px_159.6px_32px_160px] w-full max-w-[1600px] box-border md:text-center">
+          <span
+            class="text-center lg:text-left w-full max-w-[241px] break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938] mb-4 lg:mb-0 md:text-center md:m-auto">
+            Copyright 2022, Finsweet.com
+          </span>
+          <div class="flex flex-wrap gap-4 w-full lg:w-auto md:text-center md:justify-center md:pt-2">
+            <span class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938] ">
+              Home
+            </span>
+            <span class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+              About us
+            </span>
+            <span class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+              Features
+            </span>
+            <span class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+              Pricing
+            </span>
+            <span class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+              FAQ
+            </span>
+            <span class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+              Blog
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--end footer -->
+  </div>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const closeMenu = document.getElementById('close-menu');
+
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      document.body.classList.toggle('overflow-hidden');
+    });
+
+    closeMenu.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "section-1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind":"tailwindcss -i ./src/tailwind.css -o ./public/css/main.css --watch",
+    "features":"tailwindcss -i ./src/tailwind.css -o ./public/css/features.css --watch",
+    "about":"tailwindcss -i ./src/tailwind.css -o ./public/css/about.css --watch",
+    "pricing":"tailwindcss -i ./src/tailwind.css -o ./public/css/Pricing.css --watch",
+    "contact":"tailwindcss -i ./src/tailwind.css -o ./public/css/contact.css --watch",
+    "blog":"tailwindcss -i ./src/tailwind.css -o ./public/css/Blog.css --watch",
+    "read":"tailwindcss -i ./src/tailwind.css -o ./public/css/Read-Blog.css --watch",
+    "work":"tailwindcss -i ./src/tailwind.css -o ./public/css/work.css --watch",
+    "case":"tailwindcss -i ./src/tailwind.css -o ./public/css/Readcase.css --watch",
+    "pri":"tailwindcss -i ./src/tailwind.css -o ./public/css/Privacy.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "vite": "^5.3.4"
+  }
+}

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="./public/css/Blog.css">
+</head>
+
+<body>
+    <!-- project -->
+    <div>
+        <!-- Menu -->
+        <nav class="flex items-center justify-between p-4 bg-[#1C1E53] shadow-md h-[92px]">
+            <div class="text-lg ml-4">
+                <img src="./public/imges/Logo.png" alt="Logo">
+            </div>
+            <div class="hidden md:flex items-center space-x-4">
+                <a href="./index.html" class="hover:underline text-white">Home</a>
+                <a href="./about.html" class="hover:underline text-[#BBBBCB]">About us</a>
+                <a href="./Features.html" class="hover:underline text-[#BBBBCB]">Features</a>
+                <a href="./Pricing.html" class="hover:underline text-[#BBBBCB]">Pricing</a>
+                <a href="./Privacy.html" class="hover:underline text-[#BBBBCB]">FAQ</a>
+                <a href="./Blog.html" class="hover:underline text-[#BBBBCB]">Blog</a>
+                <a href="./Contact.html"
+                    class="px-4 py-2 border border-[#F4F6FC] rounded-[41px] hover:bg-white hover:text-indigo-900 text-white">Contact
+                    us</a>
+            </div>
+            <button id="hamburger" class="block md:hidden focus:outline-none">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu"
+            class="hidden fixed inset-0 h-full w-full bg-indigo-900 text-white p-4 overflow-y-auto z-50">
+            <button id="close-menu" class="mb-4 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                </svg>
+            </button>
+            <a href="./index.html" class="block mb-2 hover:underline">Home</a>
+            <a href="./about.html" class="block mb-2 hover:underline">About us</a>
+            <a href="./Features.html" class="block mb-2 hover:underline">Features</a>
+            <a href="./Pricing.html" class="block mb-2 hover:underline">Pricing</a>
+            <a href="./Privacy.html" class="block mb-2 hover:underline">FAQ</a>
+            <a href="./Blog.html" class="block mb-2 hover:underline">Blog</a>
+            <a href="./Contact.html"
+                class="block px-4 py-2 mt-2 border border-[#F4F6FC] rounded-[41px] hover:bg-white hover:text-indigo-900">Contact
+                us</a>
+        </div>
+        <!-- End Menu -->
+
+        <!-- Featured Blog -->
+        <section class="max-w-[1280px] h-[857px] mx-auto flex flex-col items-center px-4 md:px-0">
+            <!-- Heading -->
+            <div class="w-full max-w-[949px] text-center flex flex-col items-center">
+                <h2 class="w-full font-semibold text-3xl md:text-5xl leading-snug md:leading-[64px] text-[#282938]">
+                    A UX Case Study on Creating a Studious Environment for Students
+                </h2>
+                <div
+                    class="w-full max-w-[359px] flex flex-row justify-center text-center mt-4 md:mt-0 space-x-2 md:space-x-4">
+                    <p class="opacity-[70%] font-medium leading-7 text-base text-[#282938]">Andrew Jonson</p>
+                    <span class="opacity-[70%] font-medium leading-7 text-base text-[#282938]">|</span>
+                    <p class="font-medium text-base leading-7 text-[#282938]">Posted on 27th January 2021</p>
+                </div>
+            </div>
+            <!-- Banner -->
+            <div class="w-full max-w-[1280px] h-[477px] mt-8 md:mt-0 hidden md:block">
+                <img src="./public/imges/blog-header.png" alt="" class="w-full h-full object-cover">
+            </div>
+            <!-- Text -->
+            <p
+                class="w-full max-w-[813px] opacity-[70%] font-normal text-base leading-7 text-center text-[#282938] mt-8">
+                Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars
+                had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the
+                spectator on a hillside.
+            </p>
+            <!-- Link -->
+            <div class="w-full max-w-[89px] text-center mt-8">
+                <a href="./Read-Blog.html">
+                    <p class="opacity-[70%] text-base leading-7 font-normal no-underline text-[#2405F2]">Read more</p>
+                </a>
+            </div>
+        </section>
+        <!--end Featured Blog -->
+
+        <!-- Our Blog -->
+        <section class="w-full max-w-[1280px] mx-auto my-0 flex flex-col items-center space-y-16 px-4">
+            <!-- بخش عنوان "Our Blog" -->
+            <div class="w-full text-center lg:text-center md:text-center">
+                <h2 class="font-semibold text-[48px] leading-[64px] text-[#282938]">Our Blog</h2>
+            </div>
+
+            <!-- بخش مقالات وبلاگ -->
+            <div class="flex flex-col lg:flex-row lg:space-x-8 justify-center items-stretch w-full lg:px-0 px-4">
+                <!-- مقاله اول -->
+                <div
+                    class="flex flex-col w-full max-w-[405px] h-[609px] mt-16 space-y-4 mx-auto text-center lg:text-left">
+                    <img src="./public/imges/blog-card1.png" alt="" class="w-full h-[285px] object-cover" />
+                    <p class="text-[#282938] opacity-70 font-medium text-[16px] leading-[28px]">19 Jan 2022</p>
+                    <h6 class="text-[#282938] font-normal text-[24px] leading-[36px]">
+                        How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                    </h6>
+                    <p class="text-[#282938] opacity-70 font-normal text-[16px] leading-[28px]">
+                        See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                    </p>
+                    <p class="text-[#282938] font-medium text-[16px] leading-[28px]">Read More &rarr;</p>
+                </div>
+
+                <!-- مقاله دوم -->
+                <div
+                    class="flex flex-col w-full max-w-[405px] h-[609px] mt-16 space-y-4 mx-auto text-center lg:text-left">
+                    <img src="./public/imges/blog-card2.png" alt="" class="w-full h-[285px] object-cover" />
+                    <p class="text-[#282938] opacity-70 font-medium text-[16px] leading-[28px]">19 Jan 2022</p>
+                    <h6 class="text-[#282938] font-normal text-[24px] leading-[36px]">
+                        How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                    </h6>
+                    <p class="text-[#282938] opacity-70 font-normal text-[16px] leading-[28px]">
+                        See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                    </p>
+                    <p class="text-[#282938] font-medium text-[16px] leading-[28px]">Read More &rarr;</p>
+                </div>
+
+                <!-- مقاله سوم -->
+                <div
+                    class="flex flex-col w-full max-w-[405px] h-[609px] mt-16 space-y-4 mx-auto text-center lg:text-left">
+                    <img src="./public/imges/blog-card3.png" alt="" class="w-full h-[285px] object-cover" />
+                    <p class="text-[#282938] opacity-70 font-medium text-[16px] leading-[28px]">19 Jan 2022</p>
+                    <h6 class="text-[#282938] font-normal text-[24px] leading-[36px]">
+                        How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                    </h6>
+                    <p class="text-[#282938] opacity-70 font-normal text-[16px] leading-[28px]">
+                        See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                    </p>
+                    <p class="text-[#282938] font-medium text-[16px] leading-[28px]">Read More &rarr;</p>
+                </div>
+            </div>
+            <!-- بخش دوم مقالات وبلاگ -->
+            <div class="flex flex-col lg:flex-row lg:space-x-8 justify-center items-stretch w-full lg:px-0 px-4">
+                <!-- مقاله چهارم -->
+                <div
+                    class="flex flex-col w-full max-w-[405px] h-[609px] mt-16 space-y-4 mx-auto text-center lg:text-left">
+                    <img src="./public/imges/blog-card4.png" alt="" class="w-full h-[285px] object-cover" />
+                    <p class="text-[#282938] opacity-70 font-medium text-[16px] leading-[28px]">19 Jan 2022</p>
+                    <h6 class="text-[#282938] font-normal text-[24px] leading-[36px]">
+                        How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                    </h6>
+                    <p class="text-[#282938] opacity-70 font-normal text-[16px] leading-[28px]">
+                        See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                    </p>
+                    <p class="text-[#282938] font-medium text-[16px] leading-[28px]">Read More &rarr;</p>
+                </div>
+
+                <!-- مقاله پنجم -->
+                <div
+                    class="flex flex-col w-full max-w-[405px] h-[609px] mt-16 space-y-4 mx-auto text-center lg:text-left">
+                    <img src="./public/imges/blog-card5.png" alt="" class="w-full h-[285px] object-cover" />
+                    <p class="text-[#282938] opacity-70 font-medium text-[16px] leading-[28px]">19 Jan 2022</p>
+                    <h6 class="text-[#282938] font-normal text-[24px] leading-[36px]">
+                        How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                    </h6>
+                    <p class="text-[#282938] opacity-70 font-normal text-[16px] leading-[28px]">
+                        See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                    </p>
+                    <p class="text-[#282938] font-medium text-[16px] leading-[28px]">Read More &rarr;</p>
+                </div>
+
+                <!-- مقاله ششم -->
+                <div
+                    class="flex flex-col w-full max-w-[405px] h-[609px] mt-16 space-y-4 mx-auto text-center lg:text-left">
+                    <img src="./public/imges/blog-card6.png" alt="" class="w-full h-[285px] object-cover" />
+                    <p class="text-[#282938] opacity-70 font-medium text-[16px] leading-[28px]">19 Jan 2022</p>
+                    <h6 class="text-[#282938] font-normal text-[24px] leading-[36px]">
+                        How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                    </h6>
+                    <p class="text-[#282938] opacity-70 font-normal text-[16px] leading-[28px]">
+                        See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                    </p>
+                    <p class="text-[#282938] font-medium text-[16px] leading-[28px]">Read More &rarr;</p>
+                </div>
+            </div>
+        </section>
+        <!--end Our Blog -->
+
+        <!-- footer -->
+        <div class="flex flex-col items-center w-full max-w-[1600px] mx-auto box-border">
+            <!-- بخش اصلی -->
+            <div class="bg-[#1C1E53] relative p-8 lg:p-[96px_160px_0_160px] w-full max-w-[1600px] box-border">
+                <!-- بخش داخلی -->
+                <div class="relative flex flex-col  w-full max-w-[1009.7px] h-auto mx-auto box-border">
+
+                    <!-- بخش لوگو -->
+                    <div class="flex flex-col items-center mb-8">
+                        <img class="w-[160px] h-[32.41px]" src="./public/imges/Logo.png" alt="Logo" />
+                    </div>
+                    <!-- بخش عنوان -->
+                    <span
+                        class="text-center mb-8 break-words font-['Poppins'] font-bold text-[48px] leading-[1.333] text-[#FFFFFF]">
+                        Lets Talk!
+                    </span>
+
+
+                    <!-- بخش توضیحات -->
+                    <div
+                        class="flex flex-col lg:flex-row items-center justify-between w-full max-w-[1009.7px] mb-8 box-border">
+                        <div
+                            class="opacity-80 mb-4 lg:mb-0 inline-block w-full max-w-[399px] break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#FFFFFF] text-center lg:text-left">
+                            We are always open to discuss your project and improve your online presence.
+                        </div>
+
+                        <div
+                            class="opacity-80 mb-4 lg:mb-0 inline-block w-full max-w-[399px] break-words font-['Poppins'] font-normal text-[16px] leading-[1.75] text-[#F4F6FC] text-center lg:text-left">
+                            We are always open to discuss your project, improve your online presence and help with your
+                            UX/UI design
+                            challenges.
+                        </div>
+                    </div>
+
+                    <!-- بخش آیکون‌ها -->
+                    <div class="flex flex-row justify-center lg:justify-end gap-4 mb-8">
+                        <img class="w-[16px] h-[16px]" src="./public/imges/LinkedIn.png" alt="Icon" />
+                        <img class="w-[16px] h-[16px]" src="./public/imges/Instagram.png" alt="Icon" />
+                        <img class="w-[16px] h-[16px]" src="./public/imges/Twitter.png" alt="Icon" />
+                        <img class="w-[16px] h-[16px]" src="./public/imges/Facebook.png" alt="Icon" />
+                    </div>
+
+                    <!-- بخش تماس -->
+                    <div
+                        class="bg-[#FCD980] flex flex-col items-center p-4 lg:p-[17px_0_16px_37px] w-full max-w-[517px] box-border mb-8 lg:mb-0 md:m-auto">
+                        <div class="flex flex-col lg:flex-row items-center justify-between w-full max-w-[271.6px] mb-4">
+                            <div
+                                class="m-[1px_16px_0_0] inline-block w-full max-w-[108px] break-words font-['Poppins'] font-medium text-[18px] leading-[1.778] text-[#282938] text-center lg:text-left">
+                                Email me at
+                            </div>
+                            <div
+                                class="m-[0_0_1px_0] inline-block w-full max-w-[108px] break-words font-['Poppins'] font-medium text-[18px] leading-[1.778] text-[#282938] text-center lg:text-left">
+                                Call us
+                            </div>
+                        </div>
+                        <div class="flex flex-col lg:flex-row items-center justify-between w-full max-w-[342px]">
+                            <div
+                                class="opacity-80 m-[1px_14px_0_0] inline-block w-full max-w-[181px] break-words font-['Poppins'] font-normal text-[16px] leading-[1.75] text-[#282938] text-center lg:text-left">
+                                contact@website.com
+                            </div>
+                            <div
+                                class="opacity-80 m-[0_0_1px_0] inline-block w-full max-w-[181px] break-words font-['Poppins'] font-normal text-[16px] leading-[1.75] text-[#282938] text-center lg:text-left">
+                                0927 6277 28525
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- بخش ناوبری پایین صفحه -->
+                <div
+                    class="bg-[#FFFFFF] relative flex flex-col lg:flex-row justify-between p-4 lg:p-[32px_159.6px_32px_160px] w-full max-w-[1600px] box-border md:text-center">
+                    <span
+                        class="text-center lg:text-left w-full max-w-[241px] break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938] mb-4 lg:mb-0 md:text-center md:m-auto">
+                        Copyright 2022, Finsweet.com
+                    </span>
+                    <div class="flex flex-wrap gap-4 w-full lg:w-auto md:text-center md:justify-center md:pt-2">
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938] ">
+                            Home
+                        </span>
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+                            About us
+                        </span>
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+                            Features
+                        </span>
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+                            Pricing
+                        </span>
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+                            FAQ
+                        </span>
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+                            Blog
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--end footer -->
+
+    </div>
+    <!--end project -->
+
+
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMenu = document.getElementById('close-menu');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            document.body.classList.toggle('overflow-hidden');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        });
+    </script>
+</body>
+
+</html>

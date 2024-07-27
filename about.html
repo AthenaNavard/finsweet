@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="./public/css/about.css">
+</head>
+
+<body>
+    <!-- project -->
+    <div>
+        <!-- Menu -->
+        <nav class="flex items-center justify-between p-4 bg-[#1C1E53] shadow-md h-[92px]">
+            <div class="text-lg ml-4">
+                <img src="./public/imges/Logo.png" alt="Logo">
+            </div>
+            <div class="hidden md:flex items-center space-x-4">
+                <a href="./index.html" class="hover:underline text-white">Home</a>
+                <a href="./about.html" class="hover:underline text-[#BBBBCB]">About us</a>
+                <a href="./Features.html" class="hover:underline text-[#BBBBCB]">Features</a>
+                <a href="./Pricing.html" class="hover:underline text-[#BBBBCB]">Pricing</a>
+                <a href="./Privacy.html" class="hover:underline text-[#BBBBCB]">FAQ</a>
+                <a href="./Blog.html" class="hover:underline text-[#BBBBCB]">Blog</a>
+                <a href="./Contact.html"
+                    class="px-4 py-2 border border-[#F4F6FC] rounded-[41px] hover:bg-white hover:text-indigo-900 text-white">Contact
+                    us</a>
+            </div>
+            <button id="hamburger" class="block md:hidden focus:outline-none">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu"
+            class="hidden fixed inset-0 h-full w-full bg-indigo-900 text-white p-4 overflow-y-auto z-50">
+            <button id="close-menu" class="mb-4 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                </svg>
+            </button>
+            <a href="./index.html" class="block mb-2 hover:underline">Home</a>
+            <a href="./about.html" class="block mb-2 hover:underline">About us</a>
+            <a href="./Features.html" class="block mb-2 hover:underline">Features</a>
+            <a href="./Pricing.html" class="block mb-2 hover:underline">Pricing</a>
+            <a href="./Privacy.html" class="block mb-2 hover:underline">FAQ</a>
+            <a href="./Blog.html" class="block mb-2 hover:underline">Blog</a>
+            <a href="./Contact.html"
+                class="block px-4 py-2 mt-2 border border-[#F4F6FC] rounded-[41px] hover:bg-white hover:text-indigo-900">Contact
+                us</a>
+        </div>
+        <!-- End Menu -->
+
+        <!-- About us hero -->
+        <section class="w-full bg-white py-32 flex flex-col md:flex-row items-center md:justify-center mt-9 px-4">
+            <div class="md:flex md:items-center md:justify-between w-full max-w-[1279px]">
+                <div class="order-1 md:order-2 w-full md:w-[575px] h-[398px] bg-center bg-cover bg-no-repeat mb-8 md:mb-0 md:ml-20"
+                    style="background-image: url('./public/imges/about-1.png');">
+                </div>
+                <div
+                    class="order-2 md:order-1 flex flex-col items-center md:items-start text-center md:text-left w-full max-w-[624px] p-4">
+                    <div class="opacity-90 mb-4 font-normal text-[18px] leading-relaxed text-[#000000]">
+                        About us
+                    </div>
+                    <div class="mb-4 font-semibold text-[54px] leading-snug text-[#232536]">
+                        Our designs solve problems
+                    </div>
+                    <span class="opacity-60 text-[16px] leading-relaxed text-[#232536]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!--end About us hero -->
+
+        <!-- Who we are -->
+        <section class="max-w-[1280px] mx-auto px-4 py-10">
+            <!-- Text Section -->
+            <div class="bg-[#F4F5F5] py-10">
+                <div
+                    class="flex flex-col md:flex-row md:justify-between mx-auto max-w-[1092px] space-y-10 md:space-y-0 md:space-x-10">
+                    <!-- Text Left -->
+                    <div class="flex-1 text-center md:text-left">
+                        <p class="text-[#282938] font-medium text-base mb-2">Who we are</p>
+                        <h3 class="text-[38px] leading-[56px] font-semibold text-[#282938]">Goal focussed</h3>
+                        <p class="opacity-70 mt-4 text-[#282938] text-base">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                    </div>
+                    <!-- Text Right -->
+                    <div class="flex-1 text-center md:text-left lg:pt-7">
+                        <h3 class="text-[38px] leading-[56px] font-semibold text-[#282938] ">Continuous improvement</h3>
+                        <p class="opacity-70 mt-4 text-[#282938] text-base">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Banner -->
+            <div class="w-full h-[340px] hidden md:block">
+                <img src="./public/imges/about-2.png" alt="" class="w-full h-full object-cover">
+            </div>
+        </section>
+        <!--end Who we are -->
+
+        <!-- Process -->
+        <section class="w-full max-w-[1280px] mx-auto px-4 py-10 flex flex-col items-center">
+            <!-- head -->
+            <div class="w-full max-w-[532px] mb-10 text-center">
+                <h2 class="font-semibold text-3xl md:text-5xl leading-[40px] md:leading-[64px] text-[#282938]">The
+                    process we follow</h2>
+            </div>
+            <!-- cards -->
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- card 1 -->
+                <div class="flex flex-col items-center text-center lg:text-left">
+                    <img src="./public/imges/Line and Icon.png" alt="" class="w-[272px] h-6 mb-8">
+                    <div class="w-full mb-4">
+                        <h6 class="text-2xl font-medium text-[#282938]">Planning</h6>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-[#282938] opacity-[70%] text-base leading-[28px] font-normal">Lorem ipsum dolor
+                            sit amet, consetetur sadipscing elitr.</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="flex flex-col items-center text-center lg:text-left">
+                    <img src="./public/imges/Line and Icon.png" alt="" class="w-[272px] h-6 mb-8">
+                    <div class="w-full mb-4">
+                        <h6 class="text-2xl font-medium text-[#282938]">Conception</h6>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-[#282938] opacity-[70%] text-base leading-[28px] font-normal">Lorem ipsum dolor
+                            sit amet, consetetur sadipscing elitr.</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="flex flex-col items-center text-center lg:text-left">
+                    <img src="./public/imges/Line and Icon.png" alt="" class="w-[272px] h-6 mb-8">
+                    <div class="w-full mb-4">
+                        <h6 class="text-2xl font-medium text-[#282938]">Design</h6>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-[#282938] opacity-[70%] text-base leading-[28px] font-normal">Lorem ipsum dolor
+                            sit amet, consetetur sadipscing elitr.</p>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="flex flex-col items-center text-center lg:text-left">
+                    <img src="./public/imges/Line and Icon.png" alt="" class="w-[272px] h-6 mb-8">
+                    <div class="w-full mb-4">
+                        <h6 class="text-2xl font-medium text-[#282938]">Development</h6>
+                    </div>
+                    <div class="w-full">
+                        <p class="text-[#282938] opacity-[70%] text-base leading-[28px] font-normal">Lorem ipsum dolor
+                            sit amet, consetetur sadipscing elitr.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end Process -->
+
+        <!-- Our Mission and Our Vision -->
+        <section class="w-full bg-[#EEF4FA] py-10">
+            <!-- Our Vision -->
+            <section
+                class="w-full max-w-[1278px] mx-auto flex flex-col md:flex-row items-center justify-center mt-9 px-4">
+                <div class="flex flex-col md:flex-row items-center justify-center w-full">
+                    <div class="order-1 md:order-2 w-full md:w-[575px] h-[398px] bg-center bg-cover bg-no-repeat mb-8 md:mb-0 md:ml-4"
+                        style="background-image: url('./public/imges/about-3.png');">
+                    </div>
+                    <div
+                        class="order-2 md:order-1 flex flex-col items-center md:items-start text-center md:text-left w-full max-w-[624px] p-4">
+                        <div class="opacity-90 mb-4 font-normal text-[18px] leading-relaxed text-[#000000]">
+                            Our Mission
+                        </div>
+                        <div class="mb-4 font-semibold text-[38px] leading-snug text-[#232536]">
+                            Inspire, Innovate, Share
+                        </div>
+                        <span class="opacity-60 text-[16px] leading-relaxed text-[#232536]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <!--end Our Vision -->
+
+            <!-- Our Mission -->
+            <section
+                class="w-full max-w-[1278px] mx-auto flex flex-col md:flex-row items-center justify-center mt-9 px-4">
+                <div class="flex flex-col md:flex-row items-center justify-center w-full">
+                    <div class="w-full md:w-[575px] h-[398px] bg-center bg-cover bg-no-repeat mb-8 md:mb-0 md:mr-4"
+                        style="background-image: url('./public/imges/about-4.png');">
+                    </div>
+                    <div
+                        class="flex flex-col items-center md:items-start text-center md:text-left w-full max-w-[624px] p-4">
+                        <div class="opacity-90 mb-4 font-normal text-[18px] leading-relaxed text-[#000000]">
+                            Our Mission
+                        </div>
+                        <div class="mb-4 font-semibold text-[38px] leading-snug text-[#232536]">
+                            Laser focus
+                        </div>
+                        <span class="opacity-60 text-[16px] leading-relaxed text-[#232536]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!--end Our Mission -->
+
+        <!-- Benefits -->
+        <section class="w-full max-w-[1280px] mx-auto flex flex-col items-center px-4 lg:mt-7">
+            <div class="w-full max-w-[630px] text-center pb-12">
+                <!-- subject -->
+                <h2 class="font-semibold text-3xl md:text-5xl leading-tight text-[#282938]">The benefits of working with
+                    our team</h2>
+            </div>
+            <!-- card -->
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-[#f4f6fc] p-6 rounded-lg shadow-md">
+                    <img src="./public/imges/Icon 5.png" alt="" class="w-8 h-8 mb-4 mx-auto">
+                    <h6 class="text-2xl leading-9 font-normal text-[#282938] mb-2 text-center">Customize with ease</h6>
+                    <p class="opacity-70 text-base font-normal leading-7 text-[#282938] text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua ut enim.
+                    </p>
+                </div>
+                <div class="bg-[#f4f6fc] p-6 rounded-lg shadow-md">
+                    <img src="./public/imges/Icon 2.png" alt="" class="w-8 h-8 mb-4 mx-auto">
+                    <h6 class="text-2xl leading-9 font-normal text-[#282938] mb-2 text-center">Perfectly Responsive</h6>
+                    <p class="opacity-70 text-base font-normal leading-7 text-[#282938] text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua ut enim.
+                    </p>
+                </div>
+                <div class="bg-[#f4f6fc] p-6 rounded-lg shadow-md">
+                    <img src="./public/imges/Icon6.png" alt="" class="w-8 h-8 mb-4 mx-auto">
+                    <h6 class="text-2xl leading-9 font-normal text-[#282938] mb-2 text-center">Friendly Support</h6>
+                    <p class="opacity-70 text-base font-normal leading-7 text-[#282938] text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua ut enim.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--end Benefits -->
+
+        <!-- Logo Section -->
+        <section class="container mx-auto my-12 flex flex-col items-center md:flex-row md:justify-between px-4">
+            <div class="mb-6 md:mb-0">
+                <img src="./public/imges/Logo Number.png" alt="Logo Number" class="mx-auto md:mx-0">
+            </div>
+            <div
+                class=" md:grid md:grid-cols-2 md:gap-6 lg:flex lg:flex-row lg:justify-between lg:w-auto grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5 md:flex-row md:justify-between md:w-auto">
+                <img src="./public/imges/Logo 1.png" alt="Logo 1" class="w-[161.28px] h-8">
+                <img src="./public/imges/Logo 2.png" alt="Logo 2" class="w-[136.15px] h-8">
+                <img src="./public/imges/Logo 3.png" alt="Logo 3" class="w-[135.06px] h-8">
+                <img src="./public/imges/Logo 4.png" alt="Logo 4" class="w-[153.74px] h-8">
+                <img src="./public/imges/Logo 5.png" alt="Logo 5" class="w-[136.36px] h-8">
+            </div>
+        </section>
+        <!-- end Logo Section -->
+
+        <!-- Our Team -->
+        <section class="w-full mx-auto bg-[#F4F6FC] lg:mt-8 flex flex-col">
+            <!-- Heading -->
+            <div class="w-full text-center pt-32 pb-8">
+                <h2 class="text-[#282938] font-bold text-3xl md:text-4xl lg:text-5xl leading-tight">
+                    Meet our team
+                </h2>
+            </div>
+            <!-- Cards -->
+            <div class="w-full max-w-[1280px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 lg:py-10">
+                <!-- Card 1 -->
+                <div
+                    class="w-[296px] h-[344px] bg-white flex flex-col items-center p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl relative overflow-hidden">
+                    <div class="w-40 h-40 mb-4 relative">
+                        <img src="./public/imges/about-6.png" alt=""
+                            class="w-full h-full object-cover rounded-full transition-opacity duration-300 ease-in-out">
+                        <!-- Hover effect image -->
+                        <div class="absolute inset-0 bg-cover bg-center opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"
+                            style="background-image: url('./public/imges/hover.png');"></div>
+                    </div>
+                    <div class="mb-2">
+                        <h6 class="text-center text-xl font-medium text-[#1D2130]">John Smith</h6>
+                    </div>
+                    <div>
+                        <p class="text-center text-base font-normal text-[#1D2130] opacity-[70%]">CEO</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="w-[296px] h-[344px] bg-white flex flex-col items-center p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl relative overflow-hidden">
+                    <div class="w-40 h-40 mb-4 relative">
+                        <img src="./public/imges/about-7.png" alt=""
+                            class="w-full h-full object-cover rounded-full transition-opacity duration-300 ease-in-out">
+                        <!-- Hover effect image -->
+                        <div class="absolute inset-0 bg-cover bg-center opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"
+                            style="background-image: url('./public/imges/hover.png');"></div>
+                    </div>
+                    <div class="mb-2">
+                        <h6 class="text-center text-xl font-medium text-[#1D2130]">Simon Adams</h6>
+                    </div>
+                    <div>
+                        <p class="text-center text-base font-normal text-[#1D2130] opacity-[70%]">CTO</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="w-[296px] h-[344px] bg-white flex flex-col items-center p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl relative overflow-hidden">
+                    <div class="w-40 h-40 mb-4 relative">
+                        <img src="./public/imges/about-8.png" alt=""
+                            class="w-full h-full object-cover rounded-full transition-opacity duration-300 ease-in-out">
+                        <!-- Hover effect image -->
+                        <div class="absolute inset-0 bg-cover bg-center opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"
+                            style="background-image: url('./public/imges/hover.png');"></div>
+                    </div>
+                    <div class="mb-2">
+                        <h6 class="text-center text-xl font-medium text-[#1D2130]">Paul Jones</h6>
+                    </div>
+                    <div>
+                        <p class="text-center text-base font-normal text-[#1D2130] opacity-[70%]">Design Lead</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div
+                    class="w-[296px] h-[344px] bg-white flex flex-col items-center p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl relative overflow-hidden">
+                    <div class="w-40 h-40 mb-4 relative">
+                        <img src="./public/imges/about-9.png" alt=""
+                            class="w-full h-full object-cover rounded-full transition-opacity duration-300 ease-in-out">
+                        <!-- Hover effect image -->
+                        <div class="absolute inset-0 bg-cover bg-center opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"
+                            style="background-image: url('./public/imges/hover.png');"></div>
+                    </div>
+                    <div class="mb-2">
+                        <h6 class="text-center text-xl font-medium text-[#1D2130]">Sara Hardin</h6>
+                    </div>
+                    <div>
+                        <p class="text-center text-base font-normal text-[#1D2130] opacity-[70%]">Project Manager</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end Our Team -->
+
+        <!-- footer -->
+        <div class="flex flex-col items-center w-full max-w-[1600px] mx-auto box-border">
+            <!-- بخش اصلی -->
+            <div class="bg-[#1C1E53] relative p-8 lg:p-[96px_160px_0_160px] w-full max-w-[1600px] box-border">
+                <!-- بخش داخلی -->
+                <div class="relative flex flex-col  w-full max-w-[1009.7px] h-auto mx-auto box-border">
+
+                    <!-- بخش لوگو -->
+                    <div class="flex flex-col items-center mb-8">
+                        <img class="w-[160px] h-[32.41px]" src="./public/imges/Logo.png" alt="Logo" />
+                    </div>
+                    <!-- بخش عنوان -->
+                    <span
+                        class="text-center mb-8 break-words font-['Poppins'] font-bold text-[48px] leading-[1.333] text-[#FFFFFF]">
+                        Lets Talk!
+                    </span>
+
+
+                    <!-- بخش توضیحات -->
+                    <div
+                        class="flex flex-col lg:flex-row items-center justify-between w-full max-w-[1009.7px] mb-8 box-border">
+                        <div
+                            class="opacity-80 mb-4 lg:mb-0 inline-block w-full max-w-[399px] break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#FFFFFF] text-center lg:text-left">
+                            We are always open to discuss your project and improve your online presence.
+                        </div>
+
+                        <div
+                            class="opacity-80 mb-4 lg:mb-0 inline-block w-full max-w-[399px] break-words font-['Poppins'] font-normal text-[16px] leading-[1.75] text-[#F4F6FC] text-center lg:text-left">
+                            We are always open to discuss your project, improve your online presence and help with your
+                            UX/UI design
+                            challenges.
+                        </div>
+                    </div>
+
+                    <!-- بخش آیکون‌ها -->
+                    <div class="flex flex-row justify-center lg:justify-end gap-4 mb-8">
+                        <img class="w-[16px] h-[16px]" src="./public/imges/LinkedIn.png" alt="Icon" />
+                        <img class="w-[16px] h-[16px]" src="./public/imges/Instagram.png" alt="Icon" />
+                        <img class="w-[16px] h-[16px]" src="./public/imges/Twitter.png" alt="Icon" />
+                        <img class="w-[16px] h-[16px]" src="./public/imges/Facebook.png" alt="Icon" />
+                    </div>
+
+                    <!-- بخش تماس -->
+                    <div
+                        class="bg-[#FCD980] flex flex-col items-center p-4 lg:p-[17px_0_16px_37px] w-full max-w-[517px] box-border mb-8 lg:mb-0 md:m-auto">
+                        <div class="flex flex-col lg:flex-row items-center justify-between w-full max-w-[271.6px] mb-4">
+                            <div
+                                class="m-[1px_16px_0_0] inline-block w-full max-w-[108px] break-words font-['Poppins'] font-medium text-[18px] leading-[1.778] text-[#282938] text-center lg:text-left">
+                                Email me at
+                            </div>
+                            <div
+                                class="m-[0_0_1px_0] inline-block w-full max-w-[108px] break-words font-['Poppins'] font-medium text-[18px] leading-[1.778] text-[#282938] text-center lg:text-left">
+                                Call us
+                            </div>
+                        </div>
+                        <div class="flex flex-col lg:flex-row items-center justify-between w-full max-w-[342px]">
+                            <div
+                                class="opacity-80 m-[1px_14px_0_0] inline-block w-full max-w-[181px] break-words font-['Poppins'] font-normal text-[16px] leading-[1.75] text-[#282938] text-center lg:text-left">
+                                contact@website.com
+                            </div>
+                            <div
+                                class="opacity-80 m-[0_0_1px_0] inline-block w-full max-w-[181px] break-words font-['Poppins'] font-normal text-[16px] leading-[1.75] text-[#282938] text-center lg:text-left">
+                                0927 6277 28525
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- بخش ناوبری پایین صفحه -->
+                <div
+                    class="bg-[#FFFFFF] relative flex flex-col lg:flex-row justify-between p-4 lg:p-[32px_159.6px_32px_160px] w-full max-w-[1600px] box-border md:text-center">
+                    <span
+                        class="text-center lg:text-left w-full max-w-[241px] break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938] mb-4 lg:mb-0 md:text-center md:m-auto">
+                        Copyright 2022, Finsweet.com
+                    </span>
+                    <div class="flex flex-wrap gap-4 w-full lg:w-auto md:text-center md:justify-center md:pt-2">
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938] ">
+                            Home
+                        </span>
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+                            About us
+                        </span>
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+                            Features
+                        </span>
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+                            Pricing
+                        </span>
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+                            FAQ
+                        </span>
+                        <span
+                            class="break-words font-['Poppins'] font-medium text-[16px] leading-[1.75] text-[#282938]">
+                            Blog
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--end footer -->
+    </div>
+    <!--end project -->
+
+
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMenu = document.getElementById('close-menu');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            document.body.classList.toggle('overflow-hidden');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        });
+    </script>
+</body>
+
+</html>
