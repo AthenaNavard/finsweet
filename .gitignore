@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+
+# Environment variables (if applicable)
+.env
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.idea/
+
+# نادیده گرفتن پوشه‌های Node.js
+node_modules/
+
+# نادیده گرفتن تنظیمات IDE
+.vscode/
+
+# نادیده گرفتن فایل‌های قفل بسته (در صورت نیاز)
+package-lock.json
+
+# نادیده گرفتن فایل‌های موقتی یا فرعی
+*.log
+*.tmp
+
+# نادیده گرفتن پوشه‌های تولید و خروجی (در صورت وجود)
+dist/
+build/
