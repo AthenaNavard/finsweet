@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -12,33 +12,34 @@
     <!-- project -->
     <div>
         <!-- Features Hero Section -->
-        <div class="w-full h-auto bg-[#1C1E53]">
+        <div class="w-full h-auto bg-[#1C1E53] dark:bg-gray-800">
             <!-- Menu -->
-            <nav class="flex items-center justify-between p-4 bg-[#1C1E53] shadow-md h-[92px]">
+            <nav class="flex items-center justify-between p-4 bg-[#1C1E53] dark:bg-gray-800 shadow-md h-[92px]">
                 <div class="text-lg ml-4">
                     <img src="./public/imges/Logo.png" alt="Logo">
                 </div>
                 <div class="hidden md:flex items-center space-x-4">
-                    <a href="./index.html" class="hover:underline text-white">Home</a>
-                    <a href="./about.html" class="hover:underline text-[#BBBBCB]">About us</a>
-                    <a href="./Features.html" class="hover:underline text-[#BBBBCB]">Features</a>
-                    <a href="./Pricing.html" class="hover:underline text-[#BBBBCB]">Pricing</a>
-                    <a href="./Privacy.html" class="hover:underline text-[#BBBBCB]">FAQ</a>
-                    <a href="./Blog.html" class="hover:underline text-[#BBBBCB]">Blog</a>
+                    <a href="./index.html" class="hover:underline text-white  dark:text-gray-300">Home</a>
+                    <a href="./about.html" class="hover:underline text-[#BBBBCB] dark:text-gray-500">About us</a>
+                    <a href="./Features.html" class="hover:underline text-[#BBBBCB] dark:text-gray-500">Features</a>
+                    <a href="./Pricing.html" class="hover:underline text-[#BBBBCB] dark:text-gray-500">Pricing</a>
+                    <a href="./Privacy.html" class="hover:underline text-[#BBBBCB] dark:text-gray-500">FAQ</a>
+                    <a href="./Blog.html" class="hover:underline text-[#BBBBCB] dark:text-gray-500">Blog</a>
                     <a href="./Contact.html"
-                        class="px-4 py-2 border border-[#F4F6FC] rounded-[41px] hover:bg-white hover:text-indigo-900 text-white">Contact
+                        class="px-4 py-2 border border-[#F4F6FC] rounded-[41px] hover:bg-white hover:text-indigo-900 text-white dark:hover:bg-gray-700 dark:hover:text-white">Contact
                         us</a>
                 </div>
                 <button id="hamburger" class="block md:hidden focus:outline-none">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="w-6 h-6 text-white  dark:text-gray-300" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h16"></path>
+                            d="M4 6h16M4 12h16M4 18h16">
+                        </path>
                     </svg>
                 </button>
             </nav>
             <div id="mobile-menu"
-                class="hidden fixed inset-0 h-full w-full bg-indigo-900 text-white p-4 overflow-y-auto z-50">
+                class="hidden fixed inset-0 h-full w-full bg-indigo-900  dark:bg-gray-900 text-white p-4 overflow-y-auto z-50">
                 <button id="close-menu" class="mb-4 focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -319,10 +320,10 @@
         <!-- footer -->
         <section class="w-full max-w-[1600px] mx-auto box-border">
             <!-- part 1 -->
-            <div class="w-full bg-[#1c1e53] p-4 lg:p-0 flex flex-col items-center lg:items-start">
+            <div class="w-full bg-[#1c1e53] dark:bg-gray-800 p-4 lg:p-0 flex flex-col items-center lg:items-start">
                 <!-- Content -->
                 <div
-                    class="flex flex-col lg:flex-row text-white space-y-4 lg:space-y-0 lg:space-x-8 lg:w-[1058px] mx-auto">
+                    class="flex flex-col lg:flex-row text-white dark:text-gray-300 space-y-4 lg:space-y-0 lg:space-x-8 lg:w-[1058px] mx-auto">
                     <!-- div 1 -->
                     <div class="flex flex-col space-y-4 lg:space-y-0 lg:space-x-4 lg:mr-[260px]">
                         <!-- logo -->
@@ -338,7 +339,9 @@
                         <h2 class="text-[32px] lg:text-[48px] leading-[48px] lg:leading-[64px] font-semibold">Lets Talk!
                         </h2>
                         <!-- text 2 -->
-                        <p class="text-[#F4F6FC] w-full lg:w-[399px] text-[16px] leading-[28px] opacity-[80%]">We are
+                        <p
+                            class="text-[#F4F6FC] dark:text-gray-400 w-full lg:w-[399px] text-[16px] leading-[28px] opacity-[80%]">
+                            We are
                             always open to
                             discuss your project, improve your online presence and help with your UX/UI design
                             challenges.</p>
@@ -353,8 +356,8 @@
                 </div>
                 <!-- Contact Info -->
                 <div class="w-full lg:ml-[200px] mt-4 lg:mt-0 lg:self-start">
-                    <div class="bg-[#FCD980] p-4 lg:w-[517px] lg:mx-0">
-                        <div class="flex flex-col lg:flex-row justify-between text-[#282938]">
+                    <div class="bg-[#FCD980] dark:bg-gray-700 p-4 lg:w-[517px] lg:mx-0">
+                        <div class="flex flex-col lg:flex-row justify-between text-[#282938] dark:text-gray-300">
                             <!-- Email me at -->
                             <div class="flex flex-col space-y-2">
                                 <p class="text-[18px] leading-[32px] font-medium">Email me at</p>
@@ -370,7 +373,8 @@
                 </div>
             </div>
             <!-- part 2 -->
-            <div class="w-full bg-white text-[#282938] p-4 flex flex-col lg:flex-row lg:justify-between items-center">
+            <div
+                class="w-full bg-white dark:bg-gray-800 text-[#282938] dark:text-gray-300 p-4 flex flex-col lg:flex-row lg:justify-between items-center">
                 <div class="mb-4 lg:mb-0 lg:self-start lg:ml-4">
                     <!-- copy -->
                     <p class="text-[16px] leading-[28px] font-medium">Copyright 2022, Finsweet.com</p>
