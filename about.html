@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -88,16 +88,20 @@
                     <!-- Text Left -->
                     <div class="flex-1 text-center md:text-left">
                         <p class="text-[#282938] font-medium text-base mb-2 dark:text-gray-400">Who we are</p>
-                        <h3 class="text-[38px] leading-[56px] font-semibold text-[#282938] dark:text-gray-200">Goal focussed</h3>
-                        <p class="opacity-70 mt-4 text-[#282938] text-base dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
+                        <h3 class="text-[38px] leading-[56px] font-semibold text-[#282938] dark:text-gray-200">Goal
+                            focussed</h3>
+                        <p class="opacity-70 mt-4 text-[#282938] text-base dark:text-gray-400">Lorem ipsum dolor sit
+                            amet, consectetur
                             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                             consequat.</p>
                     </div>
                     <!-- Text Right -->
                     <div class="flex-1 text-center md:text-left lg:pt-7">
-                        <h3 class="text-[38px] leading-[56px] font-semibold text-[#282938]  dark:text-gray-200">Continuous improvement</h3>
-                        <p class="opacity-70 mt-4 text-[#282938] text-base dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
+                        <h3 class="text-[38px] leading-[56px] font-semibold text-[#282938]  dark:text-gray-200">
+                            Continuous improvement</h3>
+                        <p class="opacity-70 mt-4 text-[#282938] text-base dark:text-gray-400">Lorem ipsum dolor sit
+                            amet, consectetur
                             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                             consequat.</p>
@@ -433,7 +437,21 @@
         <!--end footer -->
     </div>
     <!--end project -->
+    <script>
+        // بررسی وضعیت حالت تاریک سیستم
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
 
+        // گوش دادن به تغییرات حالت رنگ سیستم
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+    </script>
 
 
     <script>

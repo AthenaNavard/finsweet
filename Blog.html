@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -60,8 +60,7 @@
         <section class="max-w-[1280px] h-[857px] mx-auto flex flex-col items-center px-4 md:px-0">
             <!-- Heading -->
             <div class="w-full max-w-[949px] text-center flex flex-col items-center">
-                <h2
-                    class="w-full font-semibold text-3xl md:text-5xl leading-snug md:leading-[64px] text-[#282938] ">
+                <h2 class="w-full font-semibold text-3xl md:text-5xl leading-snug md:leading-[64px] text-[#282938] ">
                     A UX Case Study on Creating a Studious Environment for Students
                 </h2>
                 <div
@@ -281,6 +280,21 @@
     </div>
     <!--end project -->
 
+    <script>
+        // بررسی وضعیت حالت تاریک سیستم
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+
+        // گوش دادن به تغییرات حالت رنگ سیستم
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+    </script>
 
 
     <script>

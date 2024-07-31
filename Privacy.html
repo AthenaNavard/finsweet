@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -59,12 +59,10 @@
 
         <!-- Privacy Policy Heading -->
         <section class="w-full max-w-[562px] h-auto flex flex-col items-center mx-auto px-4 lg:mt-[128px]">
-            <h2
-                class="text-[#282938]  font-semibold text-[48px] leading-[64px] text-center mb-4 md:mb-6">
+            <h2 class="text-[#282938]  font-semibold text-[48px] leading-[64px] text-center mb-4 md:mb-6">
                 Privacy Policy
             </h2>
-            <p
-                class="w-full max-w-[562px] opacity-[70%] font-normal text-base leading-7 text-[#282938]  text-center">
+            <p class="w-full max-w-[562px] opacity-[70%] font-normal text-base leading-7 text-[#282938]  text-center">
                 When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help you bring your
             </p>
         </section>
@@ -225,7 +223,21 @@
         <!--end footer -->
     </div>
     <!--end project -->
+    <script>
+        // بررسی وضعیت حالت تاریک سیستم
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
 
+        // گوش دادن به تغییرات حالت رنگ سیستم
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+    </script>
 
 
     <script>
