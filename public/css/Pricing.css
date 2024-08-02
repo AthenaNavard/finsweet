@@ -1365,28 +1365,36 @@ html{
   --tw-bg-opacity: 0.7;
 }
 
-.bg-back{
-  background-image: url('/public/imges/pri-b.png');
+.bg-\[url\(\'\.\/public\/imges\/how-1\.png\'\)\]{
+  background-image: url('./public/imges/how-1.png');
 }
 
-.bg-card-image{
-  background-image: url('/public/imges/Card (1).png');
-}
-
-.bg-card-image2{
-  background-image: url('/public/imges/Rectangle 1313.png');
-}
-
-.bg-card-image3{
+.bg-\[url\(\'\/public\/imges\/Card\.png\'\)\]{
   background-image: url('/public/imges/Card.png');
 }
 
-.bg-card-left{
+.bg-\[url\(\'\/public\/imges\/how-2\.png\'\)\]{
+  background-image: url('/public/imges/how-2.png');
+}
+
+.bg-\[url\(\'\/public\/imges\/left-card-vi\.png\'\)\]{
   background-image: url('/public/imges/left-card-vi.png');
 }
 
-.bg-card-right{
+.bg-\[url\(\'\/public\/imges\/pri-b\.png\'\)\]{
+  background-image: url('/public/imges/pri-b.png');
+}
+
+.bg-\[url\(\'\/public\/imges\/top-card\.png\'\)\]{
   background-image: url('/public/imges/top-card.png');
+}
+
+.bg-\[url\(\'\.\/public\/imges\/\'\)\]{
+  background-image: url('./public/imges/');
+}
+
+.bg-\[url\(\'\.\/public\/imges\/Card1\.jpg\'\)\]{
+  background-image: url('./public/imges/Card1.jpg');
 }
 
 .bg-cover{
@@ -2037,6 +2045,11 @@ html{
 .dark\:text-gray-500:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.dark\:text-white:is(.dark *){
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .dark\:hover\:bg-gray-700:hover:is(.dark *){
