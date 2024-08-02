@@ -1365,10 +1365,6 @@ html{
   --tw-bg-opacity: 0.7;
 }
 
-.bg-\[url\(\'\.\/public\/imges\/Card1\.png\'\)\]{
-  background-image: url('./public/imges/Card1.png');
-}
-
 .bg-\[url\(\'\/public\/imges\/Card\.png\'\)\]{
   background-image: url('/public/imges/Card.png');
 }
@@ -1387,6 +1383,10 @@ html{
 
 .bg-\[url\(\'\/public\/imges\/top-card\.png\'\)\]{
   background-image: url('/public/imges/top-card.png');
+}
+
+.bg-\[url\(\'public\/imges\/Card1\.png\'\)\]{
+  background-image: url('public/imges/Card1.png');
 }
 
 .bg-cover{
