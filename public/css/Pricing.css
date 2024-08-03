@@ -614,6 +614,10 @@ html{
   left: 0px;
 }
 
+.top-0{
+  top: 0px;
+}
+
 .z-50{
   z-index: 50;
 }
@@ -624,10 +628,6 @@ html{
 
 .order-2{
   order: 2;
-}
-
-.col-span-2{
-  grid-column: span 2 / span 2;
 }
 
 .-mx-2{
@@ -650,11 +650,6 @@ html{
   margin-bottom: 3rem;
 }
 
-.my-16{
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
 .mb-0{
   margin-bottom: 0px;
 }
@@ -665,6 +660,10 @@ html{
 
 .mb-12{
   margin-bottom: 3rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
 }
 
 .mb-2{
@@ -681,10 +680,6 @@ html{
 
 .mb-8{
   margin-bottom: 2rem;
-}
-
-.mb-\[79px\]{
-  margin-bottom: 79px;
 }
 
 .ml-0{
@@ -747,10 +742,6 @@ html{
   display: block;
 }
 
-.inline-block{
-  display: inline-block;
-}
-
 .flex{
   display: flex;
 }
@@ -803,8 +794,8 @@ html{
   height: 16px;
 }
 
-.h-\[234px\]{
-  height: 234px;
+.h-\[284px\]{
+  height: 284px;
 }
 
 .h-\[285px\]{
@@ -831,10 +822,6 @@ html{
   height: 398px;
 }
 
-.h-\[468px\]{
-  height: 468px;
-}
-
 .h-\[477px\]{
   height: 477px;
 }
@@ -845,6 +832,10 @@ html{
 
 .h-\[576px\]{
   height: 576px;
+}
+
+.h-\[600px\]{
+  height: 600px;
 }
 
 .h-\[609px\]{
@@ -945,6 +936,10 @@ html{
 
 .w-\[272px\]{
   width: 272px;
+}
+
+.w-\[292px\]{
+  width: 292px;
 }
 
 .w-\[296px\]{
@@ -1065,10 +1060,6 @@ html{
 
 .max-w-\[949px\]{
   max-width: 949px;
-}
-
-.max-w-screen-lg{
-  max-width: 1024px;
 }
 
 .flex-1{
@@ -1266,6 +1257,10 @@ html{
   border-color: rgb(244 246 252 / var(--tw-border-opacity));
 }
 
+.border-\[rgba\(244\2c 246\2c 252\2c 0\.2\)\]{
+  border-color: rgba(244,246,252,0.2);
+}
+
 .border-\[rgba\(255\2c 255\2c 255\2c 0\.05\)\]{
   border-color: rgba(255,255,255,0.05);
 }
@@ -1361,40 +1356,22 @@ html{
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-70{
-  --tw-bg-opacity: 0.7;
-}
-
-.bg-\[url\(\'\.\/public\/imges\/how-1\.png\'\)\]{
-  background-image: url('./public/imges/how-1.png');
-}
-
-.bg-\[url\(\'\/public\/imges\/Card\.png\'\)\]{
-  background-image: url('/public/imges/Card.png');
-}
-
-.bg-\[url\(\'\/public\/imges\/how-2\.png\'\)\]{
-  background-image: url('/public/imges/how-2.png');
-}
-
-.bg-\[url\(\'\/public\/imges\/left-card-vi\.png\'\)\]{
-  background-image: url('/public/imges/left-card-vi.png');
-}
-
 .bg-\[url\(\'\/public\/imges\/pri-b\.png\'\)\]{
   background-image: url('/public/imges/pri-b.png');
 }
 
-.bg-\[url\(\'\/public\/imges\/top-card\.png\'\)\]{
-  background-image: url('/public/imges/top-card.png');
+.bg-gradient-to-r{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\.\/public\/imges\/\'\)\]{
-  background-image: url('./public/imges/');
+.from-\[\#1C1E53\]{
+  --tw-gradient-from: #1C1E53 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(28 30 83 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.bg-\[url\(\'\.\/public\/imges\/Card1\.jpg\'\)\]{
-  background-image: url('./public/imges/Card1.jpg');
+.to-\[rgba\(28\2c 30\2c 83\2c 0\.42\)\]{
+  --tw-gradient-to: rgba(28,30,83,0.42) var(--tw-gradient-to-position);
 }
 
 .bg-cover{
@@ -1428,6 +1405,16 @@ html{
 
 .p-8{
   padding: 2rem;
+}
+
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .px-3{
@@ -1465,6 +1452,11 @@ html{
   padding-bottom: 0.5rem;
 }
 
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1473,6 +1465,11 @@ html{
 .py-32{
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-6{
@@ -1558,11 +1555,6 @@ html{
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-\[14px\]{
@@ -1789,6 +1781,10 @@ html{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-opacity-70{
+  --tw-text-opacity: 0.7;
+}
+
 .no-underline{
   text-decoration-line: none;
 }
@@ -1858,6 +1854,12 @@ html{
   transition-duration: 150ms;
 }
 
+.transition-all{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .transition-colors{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1884,6 +1886,10 @@ html{
   transition-duration: 300ms;
 }
 
+.duration-500{
+  transition-duration: 500ms;
+}
+
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1900,6 +1906,11 @@ html{
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:bg-\[\#FCD980\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 217 128 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[\#f5b600\]:hover{
@@ -1944,6 +1955,11 @@ html{
 .hover\:text-indigo-900:hover{
   --tw-text-opacity: 1;
   color: rgb(49 46 129 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover{
@@ -1995,6 +2011,10 @@ html{
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:opacity-100{
+  opacity: 1;
 }
 
 .dark\:bg-gray-700:is(.dark *){
@@ -2114,10 +2134,6 @@ html{
     margin-left: 2rem;
   }
 
-  .md\:ml-\[690px\]{
-    margin-left: 690px;
-  }
-
   .md\:mr-20{
     margin-right: 5rem;
   }
@@ -2196,10 +2212,6 @@ html{
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row{
