@@ -683,10 +683,6 @@ html{
   margin-bottom: 2rem;
 }
 
-.mb-\[79px\]{
-  margin-bottom: 79px;
-}
-
 .ml-0{
   margin-left: 0px;
 }
@@ -737,6 +733,10 @@ html{
 
 .mt-\[20px\]{
   margin-top: 20px;
+}
+
+.mb-\[79px\]{
+  margin-bottom: 79px;
 }
 
 .box-border{
@@ -803,10 +803,6 @@ html{
   height: 16px;
 }
 
-.h-\[234px\]{
-  height: 234px;
-}
-
 .h-\[285px\]{
   height: 285px;
 }
@@ -829,10 +825,6 @@ html{
 
 .h-\[398px\]{
   height: 398px;
-}
-
-.h-\[468px\]{
-  height: 468px;
 }
 
 .h-\[477px\]{
@@ -881,6 +873,14 @@ html{
 
 .h-full{
   height: 100%;
+}
+
+.h-\[234px\]{
+  height: 234px;
+}
+
+.h-\[468px\]{
+  height: 468px;
 }
 
 .w-1{
@@ -1365,28 +1365,12 @@ html{
   --tw-bg-opacity: 0.7;
 }
 
-.bg-\[url\(\'\/public\/imges\/Card\.png\'\)\]{
-  background-image: url('/public/imges/Card.png');
-}
-
-.bg-\[url\(\'\/public\/imges\/how-2\.png\'\)\]{
-  background-image: url('/public/imges/how-2.png');
-}
-
-.bg-\[url\(\'\/public\/imges\/left-card-vi\.png\'\)\]{
-  background-image: url('/public/imges/left-card-vi.png');
-}
-
 .bg-\[url\(\'\/public\/imges\/pri-b\.png\'\)\]{
   background-image: url('/public/imges/pri-b.png');
 }
 
-.bg-\[url\(\'\/public\/imges\/top-card\.png\'\)\]{
-  background-image: url('/public/imges/top-card.png');
-}
-
-.bg-\[url\(\'public\/imges\/Card1\.png\'\)\]{
-  background-image: url('public/imges/Card1.png');
+.bg-\[url\(\'\/public\/imges\/Card1\.png\'\)\]{
+  background-image: url('/public/imges/Card1.png');
 }
 
 .bg-cover{
@@ -1552,11 +1536,6 @@ html{
   line-height: 2.5rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-\[14px\]{
   font-size: 14px;
 }
@@ -1615,6 +1594,11 @@ html{
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold{
@@ -2106,10 +2090,6 @@ html{
     margin-left: 2rem;
   }
 
-  .md\:ml-\[690px\]{
-    margin-left: 690px;
-  }
-
   .md\:mr-20{
     margin-right: 5rem;
   }
@@ -2128,6 +2108,10 @@ html{
 
   .md\:mt-4{
     margin-top: 1rem;
+  }
+
+  .md\:ml-\[690px\]{
+    margin-left: 690px;
   }
 
   .md\:block{
@@ -2170,16 +2154,16 @@ html{
     width: 66.666667%;
   }
 
-  .md\:w-\[396px\]{
-    width: 396px;
-  }
-
   .md\:w-\[575px\]{
     width: 575px;
   }
 
   .md\:w-auto{
     width: auto;
+  }
+
+  .md\:w-\[396px\]{
+    width: 396px;
   }
 
   .md\:max-w-md{
